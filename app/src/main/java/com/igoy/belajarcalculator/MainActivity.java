@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
         bagi();
 
     }
+    @Override
+    protected void onResume(){
+        super.onResume();
+    }
 
     private void tambah() {
         btnPlus.setOnClickListener(new View.OnClickListener() {
